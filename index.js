@@ -7,6 +7,14 @@ function subVal() {
         "email": email,
         "passeword":password
     }
-    console.table(obj)
-
+    console.table(obj);
+}
+function singin(){
+    document.getElementById("container").style.display="none";
+    document.getElementById("container2").style.display="block";
+}
+function login(){
+    document.getElementById("container2").style.display="none";
+    document.getElementById("container").style.display="block";
+    
 }
