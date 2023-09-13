@@ -11,10 +11,9 @@ function subVal() {
 }
 function singin(){
     document.getElementById("container").style.display="none";
-    document.getElementById("container2").style.display="block";
+    document.getElementById("container2").style.display="block";  
 }
 function login(){
     document.getElementById("container2").style.display="none";
     document.getElementById("container").style.display="block";
-    
 }
